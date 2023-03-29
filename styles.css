@@ -1,0 +1,30 @@
+body{
+    display:flex;
+    flex-direction: column;
+    margin:0px;
+}
+
+.master-header{
+    display:flex;
+
+    width:100vw;
+    box-sizing: border-box;
+
+    padding:4px;
+    border-bottom:2px blue solid;
+
+    background-color: rgb(252, 214, 47);
+}
+.master-header a{
+    text-decoration: none;
+    color:blue;
+}
+.links{
+    display:flex;
+}
+.links-left{
+    display:flex;
+}
+.links-right{
+    display:flex;
+}
